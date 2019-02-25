@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 const config = require("../botconfig.json");
 const active = new Map();
-const Shell = '548062977836843018'
 
 module.exports = async (client, message) => {
     if(message.author.bot) return;
@@ -37,7 +36,7 @@ module.exports = async (client, message) => {
      */
     {
         const textMessage = message.content.toLowerCase();
-        if(message.guild.id = Shell){
+        if(message.guild.id = config.shellserverid){
 
         }
     }

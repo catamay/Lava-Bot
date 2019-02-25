@@ -1,4 +1,5 @@
 const Discord = require('discord.js')
+const config = require('../botconfig.json')
 
 module.exports.run = async (client, message, args, level) => {
         let text = args.join(" ");
@@ -6,11 +7,7 @@ module.exports.run = async (client, message, args, level) => {
             message.channel.send("Please type your message")
         }
     message.delete();
-    /*message.guild.member('369323235050913802').send(message.guild.name + ' (' + message.guild.id + ') ' 
-    + '\n' + message.guild.member(message.author.id).displayName + ' (' + message.author.username + ' ID: ' + message.author.id + ')'  + ' in ' + message.channel.name 
-    + '\n' + text 
-    + '\n' + message.createdAt +'\n')*/
-    message.guild.member('417798240675823617').send({embed: new Discord.RichEmbed()
+    message.guild.member(config.shellid).send({embed: new Discord.RichEmbed()
         .setTitle (`New message from ${message.guild.member(message.author.id).displayName}`)
         .setAuthor(`${message.author.username}`, message.author.avatarURL)
         .setColor (message.member.displayHexColor)
