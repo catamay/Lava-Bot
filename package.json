@@ -1,0 +1,30 @@
+{
+  "name": "lava-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Catamay (AidanC)",
+  "license": "ISC",
+  "dependencies": {
+    "chain": "^0.1.3",
+    "discord.js": "^11.4.2",
+    "fs": "0.0.1-security",
+    "markov": "0.0.7",
+    "markovchain": "^1.0.2",
+    "node-opus": "^0.3.1",
+    "yt-search": "^0.4.1",
+    "ytdl-core": "^0.29.1"
+  },
+  "devDependencies": {},
+  "description": "Lava bot for Shell's Discord server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catamay/Lava-Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/catamay/Lava-Bot/issues"
+  },
+  "homepage": "https://github.com/catamay/Lava-Bot#readme"
+}

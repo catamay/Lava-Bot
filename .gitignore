@@ -1,0 +1,4 @@
+botconfig.json
+node_modules
+ecosystem.config.js
+/events/messageUpdate.j1s
