@@ -9,6 +9,6 @@ module.exports.conf = {
 module.exports.help = {
     name: "git",
     category: "System",
-    description: "Links Lava Bot's repo",
+    description: "Links Lava Bot's repo (Currently Private)",
     usage: "git, gh, github"
   };

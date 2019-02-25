@@ -22,6 +22,6 @@ module.exports.run = async (client, message, args) => {
     module.exports.help = {
       name: "hug",
       category: "Fun",
-      description: "Hug a server member",
+      description: "Hug a server member **_Deprecated_**",
       usage: "hug @{member}"
     };

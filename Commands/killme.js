@@ -11,6 +11,6 @@ module.exports.run = async (client, message, args) => {
   module.exports.help = {
     name: "killme",
     category: "General",
-    description: "kills you..?",
+    description: "kills you..? **_Deprecated_**",
     usage: "killme"
   };
